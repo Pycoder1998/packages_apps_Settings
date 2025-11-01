@@ -19,17 +19,17 @@
         android:entryValues="@array/charging_control_mode_values"
         android:dependency="charging_control_enabled" />
 
-    <co.aospa.settings.lineage.health.StartTimePreference
+    <com.android.settings.lineage.health.StartTimePreference
         android:key="charging_control_start_time"
         android:title="@string/charging_control_start_time_title"
         android:dependency="charging_control_enabled" />
 
-    <co.aospa.settings.lineage.health.TargetTimePreference
+    <com.android.settings.lineage.health.TargetTimePreference
         android:key="charging_control_target_time"
         android:title="@string/charging_control_target_time_title"
         android:dependency="charging_control_enabled" />
 
-    <co.aospa.settings.lineage.health.ChargingLimitPreference
+    <com.android.settings.lineage.health.ChargingLimitPreference
         android:key="charging_control_charging_limit"
         android:title="@string/charging_control_limit_title"
         android:dependency="charging_control_enabled" />
